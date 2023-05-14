@@ -1,10 +1,10 @@
-package nl.zvnv.producer;
+package nl.zvnv.consumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProducerApplicationTests {
+class ConsumerApplicationTests {
 
     @Test
     void contextLoads() {
