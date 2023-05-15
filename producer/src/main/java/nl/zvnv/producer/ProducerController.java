@@ -13,7 +13,7 @@ public class ProducerController {
 
     @GetMapping("/")
     public String test() {
-        return "Producer started";
+        return String.format("%s started", instanceId);
     }
 
     @GetMapping(value="/convert/from/{from}/to/{to}", produces="application/json")
@@ -22,7 +22,6 @@ public class ProducerController {
         Currency toCurrency = Currency.valueOf(to);
 
         double res = value / fromCurrency.unitsPerUSD * toCurrency.unitsPerUSD;
-
         return String.format("{\"%s\": \"%f\", \"instanceId\": \"%s\"}", toCurrency.name(), res, instanceId);
     }
 }

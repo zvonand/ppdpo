@@ -5,33 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de0536b6-2cde-47d3-817f-d9c938a61393" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/nl/zvnv/producer/ProducerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/nl/zvnv/producer/ProducerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/nl/zvnv/producer/ServletInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/nl/zvnv/producer/utils/Currency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/nl/zvnv/producer/ProducerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/ConsumerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/nl/zvnv/consumer/ConsumerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/nl/zvnv/producer/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/nl/zvnv/producer/ProducerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
   </component>
   <component name="ProjectId" id="2Pml9OA6KbxCCyLifE8NrngvUAQ" />
   <component name="ProjectLevelVcsManager">
@@ -43,16 +51,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/home/master/workspace/mipt/ppdpo/producer/src/main/java/nl/zvnv/producer",
+    "last_opened_file_path": "/home/master/workspace/ppdpo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "f18122ddebc4341b4ed758b3f0817da8",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,22 +88,76 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ProducerApplication">
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Consumer">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="producer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="producer" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="nl.zvnv.consumer.ConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Producer1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="9091" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="spring.application.name" />
+          <option name="value" value="producer1" />
+        </param>
+      </additionalParameters>
       <module name="producer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="nl.zvnv.producer.ProducerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Producer2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="server.port" />
+          <option name="value" value="9092" />
+        </param>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="spring.application.name" />
+          <option name="value" value="producer2" />
+        </param>
+      </additionalParameters>
+      <module name="producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nl.zvnv.producer.ProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Consumer" />
+      <item itemvalue="Spring Boot.Producer1" />
+      <item itemvalue="Spring Boot.Producer2" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,10 +168,23 @@
       <option name="presentableId" value="Default" />
       <updated>1684069990075</updated>
       <workItem from="1684069995113" duration="790000" />
+      <workItem from="1684071799584" duration="13224000" />
+      <workItem from="1684110268181" duration="579000" />
+      <workItem from="1684111066741" duration="17479000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.UnknownHostException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
