@@ -4,7 +4,6 @@ import org.springframework.cloud.client.DefaultServiceInstance;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.loadbalancer.core.ServiceInstanceListSupplier;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Primary;
 import reactor.core.publisher.Flux;
 
 import java.util.Arrays;
@@ -13,7 +12,7 @@ import java.util.List;
 public class LBConfig {
 
     @Bean
-    @Primary
+//    @Primary
     ServiceInstanceListSupplier serviceInstanceListSupplier() {
         return new DemoServiceInstanceListSuppler("producer");
     }
