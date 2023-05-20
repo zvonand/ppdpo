@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ProducerController {
-    @Value("${spring.application.name}")
+    @Value("${spring.cloud.zookeeper.discovery.instance-id}")
     private String instanceId;
 
     @GetMapping("/")

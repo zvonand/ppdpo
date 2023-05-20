@@ -1,11 +1,13 @@
+# To run multiple instances, these settings are to override.
 spring:
   application:
-    name: consumer
+    name: producer
   cloud:
     zookeeper:
       discovery:
         enabled: true
+        instance-id: producer1
       connect-string: localhost:2181
 
 server:
-  port: 9090
+  port: 9091

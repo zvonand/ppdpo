@@ -9,11 +9,12 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 @Configuration
 @EnableRetry
-@LoadBalancerClient(name = "producer", configuration = LBConfig.class)
+//@LoadBalancerClient(name = "producer", configuration = LBConfig.class)
+@LoadBalancerClient(name = "producer")
 public class WebClientConfig {
-
-    @LoadBalanced
+//    @LoadBalanced
     @Bean
+    @LoadBalanced
     WebClient.Builder webClientBuilder() {
         return WebClient.builder();
     }

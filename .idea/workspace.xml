@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de0536b6-2cde-47d3-817f-d9c938a61393" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/producer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/ConsumerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/LBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/LBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/LBConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/nl/zvnv/consumer/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/nl/zvnv/producer/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/nl/zvnv/producer/ProducerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +56,19 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;task2&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;task3&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/master/workspace/ppdpo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/master/workspace/zvonovan-hw3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f18122ddebc4341b4ed758b3f0817da8&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;eccbcceec70a7ed9288ff28fecd23e26&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -81,7 +89,7 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Consumer">
+  <component name="RunManager" selected="Spring Boot.Producer2">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="producer" />
       <method v="2">
@@ -115,7 +123,7 @@
         </param>
         <param>
           <option name="enabled" value="true" />
-          <option name="name" value="spring.application.name" />
+          <option name="name" value="spring.cloud.zookeeper.discovery.instance-id" />
           <option name="value" value="producer1" />
         </param>
       </additionalParameters>
@@ -134,7 +142,7 @@
         </param>
         <param>
           <option name="enabled" value="true" />
-          <option name="name" value="spring.application.name" />
+          <option name="name" value="spring.cloud.zookeeper.discovery.instance-id" />
           <option name="value" value="producer2" />
         </param>
       </additionalParameters>
@@ -162,6 +170,8 @@
       <workItem from="1684071799584" duration="13224000" />
       <workItem from="1684110268181" duration="579000" />
       <workItem from="1684111066741" duration="17479000" />
+      <workItem from="1684586122076" duration="3300000" />
+      <workItem from="1684616308336" duration="2776000" />
     </task>
     <servers />
   </component>

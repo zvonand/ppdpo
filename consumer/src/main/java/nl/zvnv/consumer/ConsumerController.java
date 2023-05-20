@@ -32,7 +32,7 @@ public class ConsumerController {
                 .block()).getBody();
     }
 
-    @Retryable(backoff = @Backoff(delay = 100))
+    @Retryable(backoff = @Backoff(delay = 300))
     @Scheduled(fixedDelay = 5000)
     public void scheduled() {
         String result = Objects.requireNonNull(loadBalancedWebClientBuilder.build().get()
