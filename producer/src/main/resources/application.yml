@@ -11,3 +11,22 @@ spring:
 
 server:
   port: 9091
+
+management:
+  endpoint:
+    metrics:
+      enabled: true
+
+  metrics:
+    tags:
+      application: ppdpo
+
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+          - metrics
+          - health
+          - prometheus
+
