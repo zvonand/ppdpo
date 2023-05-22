@@ -8,9 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +48,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "task4",
+    "git-widget-placeholder": "task5",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/home/master/workspace/zvonovan-hw3",
+    "last_opened_file_path": "/home/master/workspace/ppdpo/producer/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +66,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/producer/src/main/resources" />
       <recent name="$PROJECT_DIR$/producer/src/main/java/nl/zvnv/producer" />
       <recent name="$PROJECT_DIR$/consumer/producer/src/main/java/nl/zvnv/producer" />
     </key>
@@ -165,7 +164,7 @@
       <workItem from="1684110268181" duration="579000" />
       <workItem from="1684111066741" duration="17479000" />
       <workItem from="1684586122076" duration="3300000" />
-      <workItem from="1684616308336" duration="6941000" />
+      <workItem from="1684616308336" duration="13267000" />
     </task>
     <servers />
   </component>
