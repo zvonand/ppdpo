@@ -1,0 +1,32 @@
+# To run multiple instances, these settings are to override.
+spring:
+  application:
+    name: producer
+  cloud:
+    zookeeper:
+      discovery:
+        enabled: true
+        instance-id: producer1
+      connect-string: localhost:2181
+
+server:
+  port: 9091
+
+management:
+  endpoint:
+    metrics:
+      enabled: true
+
+  metrics:
+    tags:
+      application: ppdpo
+
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+          - metrics
+          - health
+          - prometheus
+

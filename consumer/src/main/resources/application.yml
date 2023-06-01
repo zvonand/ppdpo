@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: consumer
+  cloud:
+    zookeeper:
+      discovery:
+        enabled: true
+      connect-string: localhost:2181
+
+server:
+  port: 9099
+
+management:
+  endpoint:
+    metrics:
+      enabled: true
+  metrics:
+    tags:
+      application: ppdpo
+
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+          - metrics
+          - health
+          - prometheus
